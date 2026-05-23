@@ -8,11 +8,7 @@
 //   - Open brackets must be closed by the same type of brackets.
 //   - Open brackets must be closed in the correct order.
 //   - Every close bracket has a corresponding open bracket of the same type.
-package valid_parentheses
-
-func IsValid(s string) bool {
-	return isValid(s)
-}
+package main
 
 func isValid(s string) bool {
 	stack := make([]rune, 0)
